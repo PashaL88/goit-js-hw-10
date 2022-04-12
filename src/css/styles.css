@@ -20,4 +20,25 @@ body {
 }
 ul {
   list-style: none;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+.item__name {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.country__tittle {
+  margin-top: 10px;
+}
+
+.country__item-title {
+margin-right: 5px;
+
+  font-weight: 700;
+}
+
+.country__flag {
+  margin-right: 5px;
 }
