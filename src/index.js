@@ -33,6 +33,7 @@ const onInputName = event => {
 const innerData = data => {
   if (data.length === 1) {
     listEL.innerHTML = '';
+    data[0].languages = Object.values(data[0].languages).join(', ');
     infoEl.innerHTML = cardTemplate(data);
   } else {
     infoEl.innerHTML = '';
